@@ -2,46 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class walkAndJump : MonoBehaviour
+public class Sc_PlayerControls : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public KeyCode inputRight = KeyCode.D;
-    public KeyCode inputLeft = KeyCode.A;
-    public KeyCode inputJump = KeyCode.Space;
+    public GameObject createdPlatform;
+    private KeyCode inputSkill = KeyCode.Q;
+    private KeyCode inputRight = KeyCode.D;
+    private KeyCode inputLeft = KeyCode.A;
+    private KeyCode inputJump = KeyCode.Space;
 
     public float acceleration = 0.01f;
     public float speed;
-    public float baseSpeed = 7;
-    public float speedCap = 14f;
-    public bool goingLeft;
-    public bool goingRight;
+    public float baseSpeed = 10;
+    public float speedCap = 16f;
+    private bool goingLeft;
+    private bool goingRight;
 
-
-    public LayerMask whatIsGround;
     public bool isGrounded = true;
-    public float jumpForce = 10f;
+    public float jumpForce = 17f;
 
     public float jumpChargeLimit = 0.7f;
     public float jumpTimeCounter = 0f;
-    public float jumpChargeMultiplier = 12f;
-    public bool isJumping;
+    public float jumpChargeMultiplier = 14f;
 
     public Transform groundCheck;
     public float groundCheckRadius;
+    private Sc_GroundChecker sc_GroundChecker;
 
-    private groundChecker groundChecker;
+    public float platformCreationCooldown = 3;
+    public float platformCreationTimer = 0;
+
     void Start()
     {
 
     rb = GetComponent<Rigidbody2D>();
 
-    groundChecker = GetComponentInChildren<groundChecker>();
+    sc_GroundChecker = GetComponentInChildren<Sc_GroundChecker>();
     }
 
 
     void Update()
     {
-        isGrounded = groundChecker.isGrounded;
+        isGrounded = sc_GroundChecker.isGrounded;
 
         if (Input.GetKeyUp(inputJump) && isGrounded)
             Jump();
@@ -58,6 +60,12 @@ public class walkAndJump : MonoBehaviour
             jumpTimeCounter = 0;
             Run();
         }
+
+        if (Input.GetKeyDown(inputSkill) && platformCreationTimer <= 0)
+            CreatePlatform();
+
+        if (platformCreationTimer > 0)
+            platformCreationTimer -= Time.deltaTime;
 
     }
 
@@ -109,5 +117,14 @@ public class walkAndJump : MonoBehaviour
     {
         Vector3 v3 = new Vector3(0, jumpTimeCounter * jumpChargeMultiplier, 0);
         rb.AddForce((transform.up * jumpForce) + v3, ForceMode2D.Impulse);
+    }
+
+    void CreatePlatform()
+    {
+        Vector3 v3 = new Vector3(transform.position.x, transform.position.y - 3, transform.position.z);
+        Instantiate(createdPlatform, v3, transform.rotation);
+
+        platformCreationTimer = platformCreationCooldown;
+        //need to add a 30 to 45 seconds penalty to the countdown here once the countdown is done.
     }
 }
