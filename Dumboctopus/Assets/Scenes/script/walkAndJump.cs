@@ -9,10 +9,10 @@ public class walkAndJump : MonoBehaviour
     public KeyCode inputLeft = KeyCode.A;
     public KeyCode inputJump = KeyCode.Space;
 
-    public float acceleration = 0.07f;
+    public float acceleration = 0.01f;
     public float speed;
-    public float baseSpeed = 4;
-    public float speedCap = 11f;
+    public float baseSpeed = 7;
+    public float speedCap = 14f;
     public bool goingLeft;
     public bool goingRight;
 
@@ -38,11 +38,9 @@ public class walkAndJump : MonoBehaviour
     groundChecker = GetComponentInChildren<groundChecker>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        Run();
-
         isGrounded = groundChecker.isGrounded;
 
         if (Input.GetKeyUp(inputJump) && isGrounded)
@@ -56,7 +54,11 @@ public class walkAndJump : MonoBehaviour
                 jumpTimeCounter = jumpChargeLimit;
         }
         else
+        {
             jumpTimeCounter = 0;
+            Run();
+        }
+
     }
 
     void Run()
