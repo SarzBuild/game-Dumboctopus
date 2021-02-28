@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 6f64f6d6b51fba744b7b49c659bd7d41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7621774415116191703
+    second: DumboctopusFloorTiles_0
+  - first:
+      213: -4619797250829176740
+    second: DumboctopusFloorTiles_1
+  - first:
+      213: -2717757242299103722
+    second: DumboctopusFloorTiles_2
+  - first:
+      213: -7741547448186736488
+    second: DumboctopusFloorTiles_3
+  - first:
+      213: -4998703809927822774
+    second: DumboctopusFloorTiles_4
+  - first:
+      213: 5674893954728769591
+    second: DumboctopusFloorTiles_5
+  - first:
+      213: -5020362978581090122
+    second: DumboctopusFloorTiles_6
+  - first:
+      213: 2023225687684730378
+    second: DumboctopusFloorTiles_7
+  - first:
+      213: 8384600212644059915
+    second: DumboctopusFloorTiles_8
+  - first:
+      213: 7569903224690133038
+    second: DumboctopusFloorTiles_9
+  - first:
+      213: -456354114990893239
+    second: DumboctopusFloorTiles_10
+  - first:
+      213: 4589897207646153596
+    second: DumboctopusFloorTiles_11
+  - first:
+      213: 1036933735539980357
+    second: DumboctopusFloorTiles_12
+  - first:
+      213: -3125219437837048698
+    second: DumboctopusFloorTiles_13
+  - first:
+      213: -8040444907179994165
+    second: DumboctopusFloorTiles_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1008
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7492bd27bf5c960800000000000000
+      internalID: 7621774415116191703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1007
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50300a80ee23efb0800000000000000
+      internalID: -4619797250829176740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_2
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1006
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616440bff26984ad0800000000000000
+      internalID: -2717757242299103722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_3
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 876
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8907ff2cc9f709490800000000000000
+      internalID: -7741547448186736488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_4
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 876
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a424cdf7e5901aab0800000000000000
+      internalID: -4998703809927822774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_5
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 356
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738be952cf541ce40800000000000000
+      internalID: 5674893954728769591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_6
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 356
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0f6225876145ab0800000000000000
+      internalID: -5020362978581090122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 520
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec4ee1b01f31c10800000000000000
+      internalID: 2023225687684730378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 219
+        width: 450
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b505a48751c5470800000000000000
+      internalID: 8384600212644059915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_9
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 219
+        width: 520
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e284db330e2bd0960800000000000000
+      internalID: 7569903224690133038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1708
+        width: 806
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9471e2ca954baa9f0800000000000000
+      internalID: -456354114990893239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_11
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1673
+        width: 465
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b6e49213792bf30800000000000000
+      internalID: 4589897207646153596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_12
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1516
+        width: 472
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548ba721dbde36e00800000000000000
+      internalID: 1036933735539980357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_13
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1577
+        width: 484
+        height: 669
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a39aba7df0a4d0800000000000000
+      internalID: -3125219437837048698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumboctopusFloorTiles_14
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 219
+        width: 450
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3107ff4f99a6090800000000000000
+      internalID: -8040444907179994165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

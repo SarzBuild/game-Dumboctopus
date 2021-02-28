@@ -19,10 +19,11 @@ public class walkAndJump : MonoBehaviour
 
     public LayerMask whatIsGround;
     public bool isGrounded = true;
-    public float jumpForce = 11f;
+    public float jumpForce = 10f;
 
-    public float jumpChargeLimit = 2f;
+    public float jumpChargeLimit = 0.7f;
     public float jumpTimeCounter = 0f;
+    public float jumpChargeMultiplier = 12f;
     public bool isJumping;
 
     public Transform groundCheck;
@@ -44,6 +45,9 @@ public class walkAndJump : MonoBehaviour
 
         isGrounded = groundChecker.isGrounded;
 
+        if (Input.GetKeyUp(inputJump) && isGrounded)
+            Jump();
+
         if (Input.GetKey(inputJump) && isGrounded)
         {
             if (jumpTimeCounter < jumpChargeLimit)
@@ -51,9 +55,8 @@ public class walkAndJump : MonoBehaviour
             if (jumpTimeCounter > jumpChargeLimit)
                 jumpTimeCounter = jumpChargeLimit;
         }
-        if (Input.GetKeyUp(inputJump))
-            Jump();
-
+        else
+            jumpTimeCounter = 0;
     }
 
     void Run()
@@ -102,17 +105,7 @@ public class walkAndJump : MonoBehaviour
 
     void Jump()
     {
-
-        if (isGrounded && !isJumping)
-        {
-            rb.AddForce(transform.up * jumpForce * jumpTimeCounter, ForceMode2D.Impulse);
-            isJumping = true;
-        }
-        else
-        {
-            jumpTimeCounter = 0;
-            isJumping = false;
-        }
-
+        Vector3 v3 = new Vector3(0, jumpTimeCounter * jumpChargeMultiplier, 0);
+        rb.AddForce((transform.up * jumpForce) + v3, ForceMode2D.Impulse);
     }
 }
