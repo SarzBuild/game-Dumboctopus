@@ -9,6 +9,7 @@ public class Sc_PlayerControls: MonoBehaviour
     [SerializeField]private LayerMask platformLayerMask;
     private Rigidbody2D rb;
     public GameObject createdPlatform;
+    public Sc_TimerCountdown timerReference;
 
     [Header("Inputs")]
 
@@ -27,6 +28,7 @@ public class Sc_PlayerControls: MonoBehaviour
     public float speedCap = 16f;
     private bool goingLeft;
     private bool goingRight;
+    private float platformTimerCost = 40f;
 
     public float jumpForce = 17f;
     public float jumpChargeLimit = 0.7f;
@@ -37,6 +39,7 @@ public class Sc_PlayerControls: MonoBehaviour
      
     void Start()
     {
+        timerReference = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Sc_TimerCountdown>();
         rb = GetComponent<Rigidbody2D>();
         boxCollider2D = transform.GetComponent<BoxCollider2D>(); 
     }
@@ -123,7 +126,7 @@ public class Sc_PlayerControls: MonoBehaviour
         Instantiate(createdPlatform, v3, transform.rotation);
 
         platformCreationTimer = platformCreationCooldown;
-        //need to add a 30 to 45 seconds penalty to the countdown here once the countdown is done.
+        timerReference.timeRemaining -= platformTimerCost;
     }
 
     private bool isGrounded()
