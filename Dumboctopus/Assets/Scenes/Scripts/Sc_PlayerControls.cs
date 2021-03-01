@@ -2,14 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sc_PlayerControls : MonoBehaviour
-{
-    public Rigidbody2D rb;
+public class Sc_PlayerControls: MonoBehaviour
+{  
+    [Header("Components")]
+    private BoxCollider2D boxCollider2D;
+    [SerializeField]private LayerMask platformLayerMask;
+    private Rigidbody2D rb;
     public GameObject createdPlatform;
+
+    [Header("Inputs")]
+
     private KeyCode inputSkill = KeyCode.Q;
+
     private KeyCode inputRight = KeyCode.D;
+
     private KeyCode inputLeft = KeyCode.A;
     private KeyCode inputJump = KeyCode.Space;
+
+    [Header("Variables")]
 
     public float acceleration = 0.01f;
     public float speed;
@@ -18,37 +28,25 @@ public class Sc_PlayerControls : MonoBehaviour
     private bool goingLeft;
     private bool goingRight;
 
-    public bool isGrounded = true;
     public float jumpForce = 17f;
-
     public float jumpChargeLimit = 0.7f;
     public float jumpTimeCounter = 0f;
     public float jumpChargeMultiplier = 14f;
-
-    public Transform groundCheck;
-    public float groundCheckRadius;
-    private Sc_GroundChecker sc_GroundChecker;
-
     public float platformCreationCooldown = 3;
     public float platformCreationTimer = 0;
-
+     
     void Start()
     {
-
-    rb = GetComponent<Rigidbody2D>();
-
-    sc_GroundChecker = GetComponentInChildren<Sc_GroundChecker>();
+        rb = GetComponent<Rigidbody2D>();
+        boxCollider2D = transform.GetComponent<BoxCollider2D>(); 
     }
-
 
     void Update()
     {
-        isGrounded = sc_GroundChecker.isGrounded;
-
-        if (Input.GetKeyUp(inputJump) && isGrounded)
+        if (Input.GetKeyUp(inputJump) && isGrounded())
             Jump();
 
-        if (Input.GetKey(inputJump) && isGrounded)
+        if (Input.GetKey(inputJump) && isGrounded())
         {
             if (jumpTimeCounter < jumpChargeLimit)
                 jumpTimeCounter += Time.deltaTime;
@@ -126,5 +124,12 @@ public class Sc_PlayerControls : MonoBehaviour
 
         platformCreationTimer = platformCreationCooldown;
         //need to add a 30 to 45 seconds penalty to the countdown here once the countdown is done.
+    }
+
+    private bool isGrounded()
+    {
+        float extraHeightText = 0.4f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size / 1.5f, 0f, Vector2.down, extraHeightText, platformLayerMask);
+        return raycastHit.collider != null;
     }
 }
