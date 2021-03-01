@@ -48,16 +48,4 @@ public class Sc_TimerCountdown : MonoBehaviour
 
         slider.value = timeRemaining / maxTime;
     }
-    public void AddTime(float timeToAdd)
-    {
-        if (timeRemaining <= (maxTime - timeToAdd))
-        {
-            timeRemaining += timeToAdd;
-        }
-        else
-        {
-            timeRemaining = maxTime;
-        }
-        
-    }
 }
