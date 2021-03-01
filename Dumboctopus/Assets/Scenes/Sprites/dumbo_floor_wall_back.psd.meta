@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: eb1aafa1aea16fa41967387cde42fc03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3286496636969254898
+    second: floor_top_left2
+  - first:
+      213: 33065715633648786
+    second: floor_middle
+  - first:
+      213: 8292284580071365783
+    second: floor_top_right2
+  - first:
+      213: 5986836978342362780
+    second: floor_top_right
+  - first:
+      213: 2323048221649227689
+    second: dumbo_floor_wall_back_5
+  - first:
+      213: 7009978989659416075
+    second: floor_corner_left
+  - first:
+      213: -7703377591063247611
+    second: floor_corner_right
+  - first:
+      213: -4930341271477515072
+    second: floor_side
+  - first:
+      213: 5834471353535895328
+    second: wall_left
+  - first:
+      213: -5338031175928623758
+    second: wall_right
+  - first:
+      213: -4097584980433845716
+    second: dumbo_floor_wall_back_11
+  - first:
+      213: -5005678728872728553
+    second: platform_left
+  - first:
+      213: 1925765863500262750
+    second: platform_center
+  - first:
+      213: -5891044623888729947
+    second: platform_right
+  - first:
+      213: -9090519218543986878
+    second: floor_single_platform
+  - first:
+      213: -5271925405629303975
+    second: dumbo_floor_single_platform
+  - first:
+      213: 6812279659130908728
+    second: dumbo_floor_wall_back_17
+  - first:
+      213: -7551988427395754172
+    second: background
+  - first:
+      213: 1288543690409139257
+    second: bacground_lava
+  - first:
+      213: -4120429933132875550
+    second: dumbo_floor_wall_back_21
+  - first:
+      213: 7375890581605865697
+    second: floor_top_left
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: floor_top_left2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1607
+        width: 468
+        height: 383
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff711a574bfb9d20800000000000000
+      internalID: 3286496636969254898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_middle
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1605
+        width: 495
+        height: 383
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294769ad719757000800000000000000
+      internalID: 33065715633648786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_top_right2
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1605
+        width: 468
+        height: 383
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c5a9324ec141370800000000000000
+      internalID: 8292284580071365783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_top_right
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1605
+        width: 346
+        height: 383
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ef44e1384851350800000000000000
+      internalID: 5986836978342362780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_wall_back_5
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1584
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af418fac002d3020800000000000000
+      internalID: 2323048221649227689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_corner_left
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1167
+        width: 494
+        height: 385
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06e99920c2784160800000000000000
+      internalID: 7009978989659416075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_corner_right
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1167
+        width: 494
+        height: 385
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50588f925ea181590800000000000000
+      internalID: -7703377591063247611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_side
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1167
+        width: 498
+        height: 384
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc82245cb8e39bb0800000000000000
+      internalID: -4930341271477515072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_left
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1168
+        width: 342
+        height: 385
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02713bf98c438f050800000000000000
+      internalID: 5834471353535895328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_right
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 1168
+        width: 342
+        height: 385
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d40d67de08be5b0800000000000000
+      internalID: -5338031175928623758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_wall_back_11
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1165
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22c3449b247227c0800000000000000
+      internalID: -4097584980433845716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_left
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 697
+        width: 264
+        height: 420
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718efc1a7b1488ab0800000000000000
+      internalID: -5005678728872728553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_center
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 695
+        width: 243
+        height: 420
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5da18689d1b9ba10800000000000000
+      internalID: 1925765863500262750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_right
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 694
+        width: 264
+        height: 420
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8332d602ece3ea0800000000000000
+      internalID: -5891044623888729947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_single_platform
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 727
+        width: 630
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247f2d23fecf7d180800000000000000
+      internalID: -9090519218543986878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_single_platform
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 727
+        width: 629
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953bb1386cb56d6b0800000000000000
+      internalID: -5271925405629303975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_wall_back_17
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 746
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fd19c1441a8e50800000000000000
+      internalID: 6812279659130908728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 12
+        width: 971
+        height: 676
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44717359982f13790800000000000000
+      internalID: -7551988427395754172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacground_lava
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 13
+        width: 971
+        height: 676
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c5860d8a3d1e110800000000000000
+      internalID: 1288543690409139257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_wall_back_21
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 300
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e87ab98eca41d6c0800000000000000
+      internalID: -4120429933132875550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_top_left
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1604
+        width: 346
+        height: 383
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e854c2a76d6c5660800000000000000
+      internalID: 7375890581605865697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
