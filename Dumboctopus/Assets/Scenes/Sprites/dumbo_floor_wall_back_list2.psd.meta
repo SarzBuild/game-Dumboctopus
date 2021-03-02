@@ -125,9 +125,9 @@ TextureImporter:
       name: floor_water
       rect:
         serializedVersion: 2
-        x: 56
+        x: 57
         y: 1689
-        width: 495
+        width: 493
         height: 232
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: ceiling_center
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 1578
-        width: 385
-        height: 344
+        x: 975
+        y: 1576
+        width: 493
+        height: 383
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,12 +230,12 @@ TextureImporter:
       name: floor_lava
       rect:
         serializedVersion: 2
-        x: 55
+        x: 58
         y: 1400
-        width: 495
+        width: 493
         height: 232
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

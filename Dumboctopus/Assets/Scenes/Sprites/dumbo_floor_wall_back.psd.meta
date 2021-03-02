@@ -16,7 +16,7 @@ TextureImporter:
     second: floor_top_right
   - first:
       213: 2323048221649227689
-    second: dumbo_floor_wall_back_5
+    second: wall_right_lavaend
   - first:
       213: 7009978989659416075
     second: floor_corner_left
@@ -34,7 +34,7 @@ TextureImporter:
     second: wall_right
   - first:
       213: -4097584980433845716
-    second: dumbo_floor_wall_back_11
+    second: wall_left_lavaend
   - first:
       213: -5005678728872728553
     second: platform_left
@@ -52,7 +52,7 @@ TextureImporter:
     second: dumbo_floor_single_platform
   - first:
       213: 6812279659130908728
-    second: dumbo_floor_wall_back_17
+    second: wall_right_lava
   - first:
       213: -7551988427395754172
     second: background
@@ -61,7 +61,7 @@ TextureImporter:
     second: bacground_lava
   - first:
       213: -4120429933132875550
-    second: dumbo_floor_wall_back_21
+    second: wall_lef_lavaend
   - first:
       213: 7375890581605865697
     second: floor_top_left
@@ -155,7 +155,7 @@ TextureImporter:
       name: floor_top_left2
       rect:
         serializedVersion: 2
-        x: 412
+        x: 410
         y: 1607
         width: 468
         height: 383
@@ -176,9 +176,9 @@ TextureImporter:
       name: floor_middle
       rect:
         serializedVersion: 2
-        x: 898
-        y: 1605
-        width: 495
+        x: 899
+        y: 1607
+        width: 493
         height: 383
       alignment: 8
       pivot: {x: 1, y: 0}
@@ -220,7 +220,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1897
         y: 1605
-        width: 346
+        width: 342
         height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -236,15 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dumbo_floor_wall_back_5
+      name: wall_right_lavaend
       rect:
         serializedVersion: 2
-        x: 2394
-        y: 1584
-        width: 353
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2397
+        y: 1588
+        width: 342
+        height: 383
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,8 +262,8 @@ TextureImporter:
         serializedVersion: 2
         x: 57
         y: 1167
-        width: 494
-        height: 385
+        width: 493
+        height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,9 +282,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 586
-        y: 1167
-        width: 494
-        height: 385
+        y: 1169
+        width: 493
+        height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,8 +304,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1105
         y: 1167
-        width: 498
-        height: 384
+        width: 493
+        height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: wall_left
       rect:
         serializedVersion: 2
-        x: 1638
-        y: 1168
+        x: 1639
+        y: 1169
         width: 342
-        height: 385
+        height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,9 +345,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2008
-        y: 1168
+        y: 1169
         width: 342
-        height: 385
+        height: 383
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,15 +362,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dumbo_floor_wall_back_11
+      name: wall_left_lavaend
       rect:
         serializedVersion: 2
-        x: 2394
-        y: 1165
-        width: 353
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2402
+        y: 1169
+        width: 342
+        height: 383
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,15 +488,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dumbo_floor_wall_back_17
+      name: wall_right_lava
       rect:
         serializedVersion: 2
         x: 2394
-        y: 746
-        width: 353
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 751
+        width: 342
+        height: 383
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,13 +551,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dumbo_floor_wall_back_21
+      name: wall_lef_lavaend
       rect:
         serializedVersion: 2
-        x: 2394
-        y: 300
-        width: 353
-        height: 390
+        x: 2404
+        y: 303
+        width: 342
+        height: 383
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,7 +577,7 @@ TextureImporter:
         serializedVersion: 2
         x: 49
         y: 1604
-        width: 346
+        width: 342
         height: 383
       alignment: 8
       pivot: {x: 1, y: 0}
