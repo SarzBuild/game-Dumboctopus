@@ -63,7 +63,11 @@ public class Sc_PlayerControls: MonoBehaviour
         }
 
         if (Input.GetKeyDown(inputSkill) && platformCreationTimer <= 0)
+        {
+            Debug.Log("Pressing Q");
             CreatePlatform();
+        }
+            
 
         if (platformCreationTimer > 0)
             platformCreationTimer -= Time.deltaTime;

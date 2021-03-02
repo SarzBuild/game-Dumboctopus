@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Sc_Platform : MonoBehaviour
 {
+    float moveDistance = 5.0f;
     void Start()
     {
-        Destroy(this.gameObject, 3);
+        if (!gameObject.CompareTag("MovingPlatform"))
+        {
+            Destroy(this.gameObject, 3);
+        }
+        
     }
 
     void Update()
     {
-
+        
     }
 }
