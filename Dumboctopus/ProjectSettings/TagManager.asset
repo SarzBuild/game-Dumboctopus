@@ -7,7 +7,6 @@ TagManager:
   - Ground
   - AddTimer
   - Water
-  - MovingPlatform
   layers:
   - Default
   - TransparentFX
