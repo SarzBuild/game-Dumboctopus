@@ -25,15 +25,15 @@ public class Sc_PlayerControls: MonoBehaviour
     public float acceleration = 0.01f;
     public float speed;
     public float baseSpeed = 10;
-    public float speedCap = 16f;
+    public float speedCap = 19f;
     private bool goingLeft;
     private bool goingRight;
     private float platformTimerCost = 40f;
 
-    public float jumpForce = 17f;
+    public float jumpForce = 19f;
     public float jumpChargeLimit = 0.7f;
     public float jumpTimeCounter = 0f;
-    public float jumpChargeMultiplier = 14f;
+    public float jumpChargeMultiplier = 19f;
     public float platformCreationCooldown = 3;
     public float platformCreationTimer = 0;
      
