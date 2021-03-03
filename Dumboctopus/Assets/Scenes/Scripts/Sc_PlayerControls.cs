@@ -10,6 +10,8 @@ public class Sc_PlayerControls: MonoBehaviour
     private Rigidbody2D rb;
     public GameObject createdPlatform;
     public Sc_TimerCountdown timerReference;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
     [Header("Inputs")]
 
@@ -19,6 +21,10 @@ public class Sc_PlayerControls: MonoBehaviour
 
     private KeyCode inputLeft = KeyCode.A;
     private KeyCode inputJump = KeyCode.Space;
+    [Header("Animations")]
+    public string isJumping = "isJumping";
+    public string isWalking = "isWalking";
+    public string isSpitting = "isSpitting";
 
     [Header("Variables")]
 
@@ -36,18 +42,22 @@ public class Sc_PlayerControls: MonoBehaviour
     public float jumpChargeMultiplier = 19f;
     public float platformCreationCooldown = 3;
     public float platformCreationTimer = 0;
+    public float spitTimer = 0;
      
     void Start()
     {
         timerReference = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Sc_TimerCountdown>();
         rb = GetComponent<Rigidbody2D>();
         boxCollider2D = transform.GetComponent<BoxCollider2D>(); 
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
         if (Input.GetKeyUp(inputJump) && isGrounded())
             Jump();
+            animator.SetBool(isJumping, true);
 
         if (Input.GetKey(inputJump) && isGrounded())
         {
@@ -68,6 +78,19 @@ public class Sc_PlayerControls: MonoBehaviour
         if (platformCreationTimer > 0)
             platformCreationTimer -= Time.deltaTime;
 
+        if(isGrounded())
+        {
+            animator.SetBool(isJumping, false);
+        }
+        if(animator.GetBool(isSpitting))
+        {
+            spitTimer += Time.deltaTime;
+            if(spitTimer >= 0.24f)
+            {
+                spitTimer = 0;
+                animator.SetBool(isSpitting, false);
+            }
+        }
     }
 
     void Run()
@@ -99,6 +122,7 @@ public class Sc_PlayerControls: MonoBehaviour
         if (goingRight)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+            spriteRenderer.flipX = false;
             if (speed <= speedCap)
                 speed += acceleration;
         }
@@ -106,22 +130,31 @@ public class Sc_PlayerControls: MonoBehaviour
         if (goingLeft)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
+            spriteRenderer.flipX = true;
             if (speed <= speedCap)
                 speed += acceleration;
         }
-
-        if (!goingLeft && !goingRight)
+        if(!goingLeft && !goingRight)
+        {
             speed = baseSpeed;
+            animator.SetBool(isWalking, false);
+        }
+        else if(goingLeft || goingRight)
+        {
+            animator.SetBool(isWalking, true);
+        }
     }
 
     void Jump()
     {
+
         Vector3 v3 = new Vector3(0, jumpTimeCounter * jumpChargeMultiplier, 0);
         rb.AddForce((transform.up * jumpForce) + v3, ForceMode2D.Impulse);
     }
 
     void CreatePlatform()
     {
+        animator.SetBool(isSpitting, true);
         Vector3 v3 = new Vector3(transform.position.x, transform.position.y - 3, transform.position.z);
         Instantiate(createdPlatform, v3, transform.rotation);
 
@@ -131,7 +164,7 @@ public class Sc_PlayerControls: MonoBehaviour
 
     private bool isGrounded()
     {
-        float extraHeightText = 0.4f;
+        float extraHeightText = 0.6f;
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size / 1.5f, 0f, Vector2.down, extraHeightText, platformLayerMask);
         return raycastHit.collider != null;
     }

@@ -7,19 +7,30 @@ public class Sc_PlayerDeath : MonoBehaviour
 {
     public GameObject countdown;
     public GameObject UI_GameEndPanel;
+    public GameObject getAnimator;
+    private Animator animator;
+    public string isDead = "isDead";
+    public float timeBeforeEndGame = 0f;
     private void Start() 
     {
         Time.timeScale = 1;
         countdown = GameObject.FindGameObjectWithTag("MainCamera");   
+        animator = getAnimator.GetComponent<Animator>();
+        animator.SetBool(isDead,false);
     }
     private void Update() 
     {
         if(countdown.GetComponent<Sc_TimerCountdown>().timeRemaining <= 0)
         {
-            Time.timeScale = Mathf.Lerp(Time.timeScale, 0, 0.03f);
-            if(Time.timeScale < 0.01)
+            animator.SetBool(isDead, true);
+            timeBeforeEndGame += Time.deltaTime;
+            if(timeBeforeEndGame >= 1.25)
             {
-                UI_GameEndPanel.SetActive(true);
+                Time.timeScale = Mathf.Lerp(Time.timeScale, 0, 0.03f);
+                if(Time.timeScale < 0.01)
+                {
+                    UI_GameEndPanel.SetActive(true);
+                }
             }
         }    
     }
