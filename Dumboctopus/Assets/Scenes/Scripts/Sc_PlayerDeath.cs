@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Sc_PlayerDeath : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Sc_PlayerDeath : MonoBehaviour
         Time.timeScale = 1;
         countdown = GameObject.FindGameObjectWithTag("MainCamera");   
         animator = getAnimator.GetComponent<Animator>();
-        animator.SetBool(isDead,false);
+        animator.SetBool(isDead,false);        
     }
     private void Update() 
     {
