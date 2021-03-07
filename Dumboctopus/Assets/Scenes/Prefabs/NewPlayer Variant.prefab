@@ -52,7 +52,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8847380230875681898, guid: 262f52d4a9c1b76499fe5b7628df86e7, type: 3}
       propertyPath: m_Name
-      value: NewPlayer
+      value: NewPlayer Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8847380230875681898, guid: 262f52d4a9c1b76499fe5b7628df86e7, type: 3}
       propertyPath: m_TagString
@@ -90,6 +90,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c333f2f104c8b28449dc42e0107c6339, type: 3}
+    - target: {fileID: 8847380230875681902, guid: 262f52d4a9c1b76499fe5b7628df86e7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8847380230875681903, guid: 262f52d4a9c1b76499fe5b7628df86e7, type: 3}
       propertyPath: m_RootOrder
       value: 0
