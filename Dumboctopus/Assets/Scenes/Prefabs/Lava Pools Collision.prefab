@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5314211860048330012}
   - component: {fileID: 4098051661609694578}
   - component: {fileID: 3316147118357232445}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 7433469087257746924}
   - component: {fileID: 519306226136518686}
   - component: {fileID: 4785706214098283758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 6702776342448249643}
   - component: {fileID: 7736948322817848508}
   - component: {fileID: 2211385984490174312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,6 +486,7 @@ Transform:
   - {fileID: 2811877209273053458}
   - {fileID: 2528094583143780508}
   - {fileID: 6011479467797262453}
+  - {fileID: 5580055922561085047}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -503,7 +504,7 @@ GameObject:
   - component: {fileID: 3064216143485499695}
   - component: {fileID: 8432508460771528479}
   - component: {fileID: 1269754472697340138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +651,7 @@ GameObject:
   - component: {fileID: 3012388287300986704}
   - component: {fileID: 3528775789957476488}
   - component: {fileID: 2613872795926823242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +798,7 @@ GameObject:
   - component: {fileID: 4529731001885747526}
   - component: {fileID: 5423729727560508834}
   - component: {fileID: 2327818895840865509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +945,7 @@ GameObject:
   - component: {fileID: 8019379142299328270}
   - component: {fileID: 7196301823562013891}
   - component: {fileID: 4210802013890493363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,7 +1092,7 @@ GameObject:
   - component: {fileID: 2993392890363872061}
   - component: {fileID: 2665281278864902936}
   - component: {fileID: 5844653225856682065}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1238,7 +1239,7 @@ GameObject:
   - component: {fileID: 7127742432894719473}
   - component: {fileID: 4619210920493977464}
   - component: {fileID: 9144384039921673829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,7 +1386,7 @@ GameObject:
   - component: {fileID: 4423381856886348398}
   - component: {fileID: 4423381856886348401}
   - component: {fileID: 4423381856886348400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,6 +1519,153 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999994}
   m_EdgeRadius: 0
+--- !u!1 &4471083398967390980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5580055922561085047}
+  - component: {fileID: 5626552355929345435}
+  - component: {fileID: 6542501319212600753}
+  - component: {fileID: 2340424362655443087}
+  - component: {fileID: 4675092498387276531}
+  - component: {fileID: 8946275969369401987}
+  m_Layer: 8
+  m_Name: Lava Collision (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5580055922561085047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 250.84, y: -98.16, z: 697.5838}
+  m_LocalScale: {x: 4.690623, y: 1.5238246, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 7669193463691572563}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5626552355929345435
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6542501319212600753
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2340424362655443087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb6412aa772cbc47aab51fa37ff38aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdown: {fileID: 0}
+  inLava: 0
+  internalTimer: 0
+  timeSinceLastDamage: 0
+--- !u!50 &4675092498387276531
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &8946275969369401987
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471083398967390980}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.99999994}
+  m_EdgeRadius: 0
 --- !u!1 &4552600001395233464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1680,7 @@ GameObject:
   - component: {fileID: 5307183922054510558}
   - component: {fileID: 8561001905315337725}
   - component: {fileID: 1271831532552042023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1679,7 +1827,7 @@ GameObject:
   - component: {fileID: 5813094323616569122}
   - component: {fileID: 8969013594098146624}
   - component: {fileID: 4563132846727526826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1826,7 +1974,7 @@ GameObject:
   - component: {fileID: 3738355250027067137}
   - component: {fileID: 164150187645717514}
   - component: {fileID: 7009098945068043532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1973,7 +2121,7 @@ GameObject:
   - component: {fileID: 7252668624215024968}
   - component: {fileID: 6923064526896657944}
   - component: {fileID: 829270573313921644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2268,7 @@ GameObject:
   - component: {fileID: 7724694920868032965}
   - component: {fileID: 5523109891912201844}
   - component: {fileID: 7823385067394269002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2267,7 +2415,7 @@ GameObject:
   - component: {fileID: 3236685213675029905}
   - component: {fileID: 2994027644124394972}
   - component: {fileID: 793862008638153014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2562,7 @@ GameObject:
   - component: {fileID: 7300995363642950027}
   - component: {fileID: 1351181931123595052}
   - component: {fileID: 4678474564407258203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2561,7 +2709,7 @@ GameObject:
   - component: {fileID: 1121157056706321977}
   - component: {fileID: 2088654397486744627}
   - component: {fileID: 5371652866224404588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lava Collision (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
