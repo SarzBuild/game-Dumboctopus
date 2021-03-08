@@ -23,11 +23,12 @@ public class Sc_PlayerDeath : MonoBehaviour
     {
         if(countdown.GetComponent<Sc_TimerCountdown>().timeRemaining <= 0)
         {
+            countdown.GetComponent<Sc_TimerCountdown>().timeText.text = string.Format("{0:00}:{1:00}",0 , 0);
             animator.SetBool(isDead, true);
             timeBeforeEndGame += Time.deltaTime;
             if(timeBeforeEndGame >= 1.25)
             {
-                Time.timeScale = Mathf.Lerp(Time.timeScale, 0, 0.03f);
+                Time.timeScale = 0;
                 if(Time.timeScale < 0.01)
                 {
                     UI_GameEndPanel.SetActive(true);

@@ -19,18 +19,12 @@ public class Sc_Endgame : MonoBehaviour
         subText = getSubText.GetComponent<Text>();
         playerControls = getPlayerControl.GetComponent<Sc_PlayerControls>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
-    {        
+    {
+        playerControls.enabled = false;
         mainText.text = "Congratulations!";
         subText.text = "You have escaped";
         UI_GameEndPanel.SetActive(true);
-        playerControls.enabled = false;
-
+        Time.timeScale = 0;
     }
 }

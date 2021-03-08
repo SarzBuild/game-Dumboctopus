@@ -10,6 +10,7 @@ public class Sc_TimerCountdown : MonoBehaviour
     public bool timerIsRunning = false;
     public Text timeText;
     public Slider slider;
+    public float seconds;
     private void Start()
     {
         timerIsRunning = true;
