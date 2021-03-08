@@ -26,11 +26,11 @@ public class Sc_Endgame : MonoBehaviour
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        playerControls.enabled = false;
+    {        
         mainText.text = "Congratulations!";
         subText.text = "You have escaped";
         UI_GameEndPanel.SetActive(true);
+        playerControls.enabled = false;
 
     }
 }
