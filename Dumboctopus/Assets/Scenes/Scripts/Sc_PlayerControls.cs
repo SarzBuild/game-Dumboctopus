@@ -25,6 +25,7 @@ public class Sc_PlayerControls: MonoBehaviour
     public string isJumping = "isJumping";
     public string isWalking = "isWalking";
     public string isSpitting = "isSpitting";
+    public string isCharging = "isCharging";
 
     [Header("Variables")]
 
@@ -56,7 +57,12 @@ public class Sc_PlayerControls: MonoBehaviour
     void Update()
     {
         if (Input.GetKeyUp(inputJump) && isGrounded())
+        {
             Jump();
+            animator.SetBool(isCharging, false);
+        }
+
+        if (!isGrounded())
             animator.SetBool(isJumping, true);
 
         if (Input.GetKey(inputJump) && isGrounded())
@@ -65,6 +71,7 @@ public class Sc_PlayerControls: MonoBehaviour
                 jumpTimeCounter += Time.deltaTime;
             if (jumpTimeCounter > jumpChargeLimit)
                 jumpTimeCounter = jumpChargeLimit;
+            animator.SetBool(isCharging, true);
         }
         else
         {
