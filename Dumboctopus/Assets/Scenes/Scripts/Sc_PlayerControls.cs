@@ -39,7 +39,7 @@ public class Sc_PlayerControls: MonoBehaviour
     public float jumpForce = 19f;
     public float jumpChargeLimit = 0.7f;
     public float jumpTimeCounter = 0f;
-    public float jumpChargeMultiplier = 19f;
+    public float jumpChargeMultiplier = 29f;
     public float platformCreationCooldown = 3;
     public float platformCreationTimer = 0;
     public float spitTimer = 0;
@@ -72,7 +72,7 @@ public class Sc_PlayerControls: MonoBehaviour
             Run();
         }
 
-        if (Input.GetKeyDown(inputSkill) && platformCreationTimer <= 0)
+        if (Input.GetKeyDown(inputSkill) && platformCreationTimer <= 0 && !isGrounded())
             CreatePlatform();
 
         if (platformCreationTimer > 0)
@@ -155,8 +155,10 @@ public class Sc_PlayerControls: MonoBehaviour
     void CreatePlatform()
     {
         animator.SetBool(isSpitting, true);
-        Vector3 v3 = new Vector3(transform.position.x, transform.position.y - 3, transform.position.z);
+        Vector3 v3 = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         Instantiate(createdPlatform, v3, transform.rotation);
+        rb.Sleep();
+
 
         platformCreationTimer = platformCreationCooldown;
         timerReference.timeRemaining -= platformTimerCost;
