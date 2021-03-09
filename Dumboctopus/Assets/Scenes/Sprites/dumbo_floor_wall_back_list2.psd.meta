@@ -22,19 +22,37 @@ TextureImporter:
     second: floor_lava
   - first:
       213: 7028035033862486608
-    second: dumbo_floor_wall_back_list2_6
+    second: ceiling lava middle
   - first:
       213: 2023916068602167272
-    second: dumbo_floor_wall_back_list2_7
+    second: ceiling lava end left
   - first:
       213: -5249367135622683215
-    second: dumbo_floor_wall_back_list2_8
+    second: ceiling lava end right
   - first:
       213: 7713558636031113067
-    second: dumbo_floor_wall_back_list2_9
+    second: ceiling_lava_corner_left
   - first:
       213: -190572480626780173
     second: dumbo_floor_wall_back_list2_10
+  - first:
+      213: -7083701857973746801
+    second: dumbo_floor_wall_back_list2_11
+  - first:
+      213: 7602524611921379931
+    second: ceiling_lava_corner_right
+  - first:
+      213: 2437130843210665759
+    second: lava_corner_left
+  - first:
+      213: -5599196234937203680
+    second: lava_corner_right
+  - first:
+      213: 8356299794811884779
+    second: ceiling corner1
+  - first:
+      213: -99884936335119999
+    second: ceiling corner2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -179,10 +197,10 @@ TextureImporter:
       name: ceiling_left
       rect:
         serializedVersion: 2
-        x: 617
-        y: 1574
+        x: 1937
+        y: 1583
         width: 342
-        height: 344
+        height: 383
       alignment: 3
       pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +239,10 @@ TextureImporter:
       name: ceiling_right
       rect:
         serializedVersion: 2
-        x: 1485
-        y: 1576
-        width: 343
-        height: 344
+        x: 1564
+        y: 1585
+        width: 342
+        height: 379
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +260,8 @@ TextureImporter:
       name: floor_lava
       rect:
         serializedVersion: 2
-        x: 58
-        y: 1400
+        x: 65
+        y: 1407
         width: 493
         height: 232
       alignment: 6
@@ -255,90 +273,6 @@ TextureImporter:
       bones: []
       spriteID: 2c3a3c73ffad83f00800000000000000
       internalID: 1096867298951799746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dumbo_floor_wall_back_list2_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 684
-        width: 526
-        height: 642
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05abf5e80a8988160800000000000000
-      internalID: 7028035033862486608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dumbo_floor_wall_back_list2_7
-      rect:
-        serializedVersion: 2
-        x: 1047
-        y: 89
-        width: 796
-        height: 1134
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8efbc34f0f4661c10800000000000000
-      internalID: 2023916068602167272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dumbo_floor_wall_back_list2_8
-      rect:
-        serializedVersion: 2
-        x: 2030
-        y: 95
-        width: 837
-        height: 1177
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b5a99907608627b0800000000000000
-      internalID: -5249367135622683215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dumbo_floor_wall_back_list2_9
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 16
-        width: 649
-        height: 640
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b67f7c616b01c0b60800000000000000
-      internalID: 7713558636031113067
       vertices: []
       indices: 
       edges: []
@@ -360,6 +294,216 @@ TextureImporter:
       bones: []
       spriteID: 3f7964ca653fa5df0800000000000000
       internalID: -190572480626780173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling lava middle
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 714
+        width: 493
+        height: 500
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05abf5e80a8988160800000000000000
+      internalID: 7028035033862486608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling lava end left
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 712
+        width: 493
+        height: 500
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efbc34f0f4661c10800000000000000
+      internalID: 2023916068602167272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling lava end right
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 713
+        width: 493
+        height: 500
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5a99907608627b0800000000000000
+      internalID: -5249367135622683215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling_lava_corner_left
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 286
+        width: 493
+        height: 383
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67f7c616b01c0b60800000000000000
+      internalID: 7713558636031113067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumbo_floor_wall_back_list2_11
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1874
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8343b4f0b2a1bd90800000000000000
+      internalID: -7083701857973746801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling_lava_corner_right
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 284
+        width: 493
+        height: 383
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520db9cad7918960800000000000000
+      internalID: 7602524611921379931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_corner_left
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 278
+        width: 493
+        height: 232
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f48b4e69d62d120800000000000000
+      internalID: 2437130843210665759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_corner_right
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 275
+        width: 493
+        height: 232
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0240ddca0b8ab42b0800000000000000
+      internalID: -5599196234937203680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling corner1
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1595
+        width: 342
+        height: 379
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be49e6ac36a87f370800000000000000
+      internalID: 8356299794811884779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceiling corner2
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 641
+        width: 342
+        height: 379
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189255bfd232d9ef0800000000000000
+      internalID: -99884936335119999
       vertices: []
       indices: 
       edges: []

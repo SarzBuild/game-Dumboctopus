@@ -55,16 +55,19 @@ TextureImporter:
     second: wall_right_lava
   - first:
       213: -7551988427395754172
-    second: background
+    second: wall lava right end up
   - first:
       213: 1288543690409139257
     second: bacground_lava
   - first:
       213: -4120429933132875550
-    second: wall_lef_lavaend
+    second: wall_left_lava
   - first:
       213: 7375890581605865697
     second: floor_top_left
+  - first:
+      213: 1269711713703695529
+    second: wall lava left end up
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -251,8 +254,8 @@ TextureImporter:
       name: wall_right_lavaend
       rect:
         serializedVersion: 2
-        x: 2397
-        y: 1588
+        x: 2396
+        y: 1601
         width: 342
         height: 383
       alignment: 8
@@ -377,8 +380,8 @@ TextureImporter:
       name: wall_left_lavaend
       rect:
         serializedVersion: 2
-        x: 2402
-        y: 1169
+        x: 2413
+        y: 1172
         width: 342
         height: 383
       alignment: 6
@@ -503,12 +506,12 @@ TextureImporter:
       name: wall_right_lava
       rect:
         serializedVersion: 2
-        x: 2394
-        y: 751
+        x: 2389
+        y: 747
         width: 342
         height: 383
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,15 +524,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background
+      name: wall lava right end up
       rect:
         serializedVersion: 2
-        x: 38
-        y: 12
-        width: 971
-        height: 676
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        x: 579
+        y: 127
+        width: 342
+        height: 383
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,36 +545,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bacground_lava
+      name: wall_left_lava
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 13
-        width: 971
-        height: 676
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c5860d8a3d1e110800000000000000
-      internalID: 1288543690409139257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_lef_lavaend
-      rect:
-        serializedVersion: 2
-        x: 2404
-        y: 303
+        x: 2413
+        y: 305
         width: 342
         height: 383
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -600,6 +582,27 @@ TextureImporter:
       bones: []
       spriteID: 1e854c2a76d6c5660800000000000000
       internalID: 7375890581605865697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall lava left end up
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 133
+        width: 342
+        height: 383
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4167e831cee9110800000000000000
+      internalID: 1269711713703695529
       vertices: []
       indices: 
       edges: []
