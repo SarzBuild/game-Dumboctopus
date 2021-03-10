@@ -26,9 +26,20 @@ public class Sc_LavaCollision : MonoBehaviour
             inLava = false;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            countdown.GetComponent<Sc_TimerCountdown>().timeRemaining -= 20;
+            inLava = true;
+        }
+
+    }
+
     public void TimeBeforeGettingHurt()
     {
-        if(timeSinceLastDamage > 1.0f)
+        if (timeSinceLastDamage > 1.0f)
         {
             timeSinceLastDamage = 0f;
             countdown.GetComponent<Sc_TimerCountdown>().timeRemaining -= 5;
@@ -40,7 +51,7 @@ public class Sc_LavaCollision : MonoBehaviour
     }
     void Update()
     {
-        if(inLava)
+        if (inLava)
         {
             TimeBeforeGettingHurt();
         }
@@ -49,5 +60,4 @@ public class Sc_LavaCollision : MonoBehaviour
             timeSinceLastDamage = 1.0f;
         }
     }
-    
 }

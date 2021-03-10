@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Sc_TimerCountdown : MonoBehaviour
 {
     public float timeRemaining;
-    public float maxTime = 210;
+    public float maxTime = 211;
     public bool timerIsRunning = false;
     public Text timeText;
     public Slider slider;
